@@ -6,7 +6,7 @@
 
 ## Status (GitHub Actions)
 
-[![build](https://github.com/gabriel-rodriguezcastellini/UrlShortener/actions/workflows/build-validation.yml/badge.svg)](https://github.com/gabriel-rodriguezcastellini/UrlShortener/actions/workflows/build-validation.yml) [![CodeQL](https://github.com/gabriel-rodriguezcastellini/urlShortener/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/gabriel-rodriguezcastellini/urlShortener/actions/workflows/codeql.yml)
+[![build](https://github.com/gabriel-rodriguezcastellini/UrlShortener/actions/workflows/build-validation.yml/badge.svg)](https://github.com/gabriel-rodriguezcastellini/UrlShortener/actions/workflows/build-validation.yml) [![CodeQL](https://github.com/gabriel-rodriguezcastellini/UrlShortener/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/gabriel-rodriguezcastellini/UrlShortener/actions/workflows/github-code-scanning/codeql)
 
 ## Getting Started
 
