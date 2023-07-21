@@ -1,4 +1,4 @@
-<img src="https://github.com/gabriel-rodriguezcastellini/UrlShortener/blob/main/img/shortener.jpeg" alt="URL Shortener logo" title="urlShortener" align="right" height="60" />
+<img src="https://github.com/gabriel-rodriguezcastellini/UrlShortener/blob/master/img/shortener.jpeg" alt="URL Shortener logo" title="urlShortener" align="right" height="60" />
 
 # URL Shortener
 
@@ -30,7 +30,3 @@ Seq :  http://host.docker.internal:5341/
 
 This application is cross-platform at the server and client-side, thanks to .NET 6 services capable of running on Linux or Windows containers depending on your Docker host.
 The architecture proposes a microservice oriented architecture implementation using HTTP as the communication protocol between the client app and the microservice.
-
-## Read further
-
-- [Explore the application](https://github.com/gabriel-rodriguezcastellini/UrlShortener/wiki#explore-the-application)
