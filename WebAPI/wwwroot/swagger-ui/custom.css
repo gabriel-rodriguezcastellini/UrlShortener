@@ -1,0 +1,26 @@
+﻿body {
+    background-image: url("../images/shortener.jpeg");
+    background-size: 150px;
+    background-repeat: no-repeat;    
+    background-position: left;
+}
+
+div.topbar {
+    background-color: #34A65F !important;
+}
+
+h2, h3 {
+    color: #F5624D !important;
+}
+
+.opblock-summary-get > button > span.opblock-summary-method {
+    background-color: #235E6F !important;
+}
+
+.opblock-summary-post > button > span.opblock-summary-method {
+    background-color: #0F8A5F !important;
+}
+
+.opblock-summary-delete > button > span.opblock-summary-method {
+    background-color: #CC231E !important;
+}

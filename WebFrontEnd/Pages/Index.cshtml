@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1 class="display-3 text-center">URL Shortener</h1>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["InfoMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["InfoMessage"]
+    </div>
+}
+
+<div class="row d-flex">
+    <div class="col-sm-4 mb-4 mb-sm-0 mx-auto">
+        <div class="card mx-auto" style="width: 18rem;">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Create</h6>
+                <form asp-page="shorturl/create" method="post" class="my-2">
+                    <div class="mb-3">
+                        <label for="Destination" class="form-label">Destination</label>
+                        <input type="text" asp-for="ShortUrl.Destination" class="form-control" id="Destination">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Path" class="form-label">Path</label>
+                        <input type="text" asp-for="ShortUrl.Path" class="form-control" id="Path">
+                        <h6 class="card-subtitle mb-2 text-muted">Path must be 10 characteres max for creation</h6>
+                    </div>
+                    <button type="submit" class="btn btn-primary">create</button>
+                    <button type="submit" class="btn btn-info" formaction="shorturl/details">view</button>
+                    <button type="submit" class="btn btn-danger" formaction="shorturl/delete">delete</button>
+                </form>
+            </div>
+        </div>
+    </div>        
+</div>
