@@ -30,3 +30,5 @@ Seq :  http://host.docker.internal:5341/
 
 This application is cross-platform at the server and client-side, thanks to .NET 6 services capable of running on Linux or Windows containers depending on your Docker host.
 The architecture proposes a microservice oriented architecture implementation using HTTP as the communication protocol between the client app and the microservice.
+
+![image](https://github.com/gabriel-rodriguezcastellini/UrlShortener/assets/42047270/acd113e2-7b63-40ee-825d-deb01f54d441)
